@@ -12,6 +12,10 @@ namespace Service
 {
     public partial class Service1 : ServiceBase
     {
+        string cipherText = null;
+        string plainText = "test";
+        string plainText1 = null;
+
         public Service1()
         {
             InitializeComponent();
@@ -21,6 +25,11 @@ namespace Service
         {
         }
 
+
+        public static string Encrypt(string plainText)
+        {
+
+        }
         protected override void OnStop()
         {
         }
